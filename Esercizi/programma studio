@@ -1,0 +1,33 @@
+Fase 1: Fondamenti di programmazione C
+Esercizio 1: Scrivere un programma C che legga un array di numeri interi da input e calcoli la loro somma.
+Esercizio 2: Scrivere un programma C che utilizzi puntatori per invertire un array di numeri interi.
+Esercizio 3: Creare una struttura dati per rappresentare uno studente (nome, età, matricola) e scrivere un programma che ne gestisca un array.
+Fase 2: Introduzione ai Thread
+Esercizio 4: Scrivere un programma C che crei un thread che stampa "Hello, World!" e termini correttamente.
+Esercizio 5: Modificare il programma precedente per creare n thread, ciascuno dei quali stampa il proprio identificativo.
+Esercizio 6: Scrivere un programma C che utilizza thread per calcolare la somma di elementi in un array dividendo il lavoro tra i thread.
+Fase 3: Sincronizzazione di Thread
+Esercizio 7: Scrivere un programma C che utilizza un mutex per proteggere l'accesso a una variabile globale incrementata da più thread.
+Esercizio 8: Implementare un programma produttore-consumatore utilizzando mutex e variabili condizione.
+Esercizio 9: Scrivere un programma che simuli il problema dei lettori e scrittori utilizzando mutex e variabili condizione.
+Fase 4: Applicazione ai Compiti di Esempio
+Esercizio 10: Implementare un programma C che scansiona una directory e stampa i nomi dei file contenuti. (Simile al compito del 28 luglio 2023)
+Esercizio 11: Estendere il programma precedente per calcolare la dimensione totale dei file regolari nella directory senza usare thread.
+Esercizio 12: Aggiungere thread al programma precedente, dove ogni thread si occupa di una sottodirectory. Utilizzare mutex per sincronizzare l'accesso ai risultati.
+Fase 5: Compiti di Livello Avanzato
+Esercizio 13: Implementare un programma che legge file di testo contenenti operazioni matematiche e ne verifica la correttezza utilizzando thread, mutex e variabili condizione. (Simile al compito del 2 febbraio 2024)
+Esercizio 14: Creare un programma che simuli una partita di Bingo con n giocatori e m cartelle per giocatore utilizzando thread, mutex e semafori. (Simile al compito del 20 febbraio 2024)
+Fase 6: Simulazione Esami
+Esercizio 15: Simulare un esame di 2 ore e 30 minuti implementando un programma che esegue la scansione di più directory e calcola la dimensione totale dei file regolari usando thread e mutex.
+Esercizio 16: Simulare un esame di 2 ore e 20 minuti implementando un programma che verifica la correttezza delle operazioni matematiche nei file di input utilizzando thread e semafori.
+Esercizio 17: Simulare un esame di 2 ore e 45 minuti implementando un programma che gestisce una partita di Bingo con n giocatori e m cartelle utilizzando thread, mutex e semafori.
+
+
+Materiale di Supporto
+Documentazione POSIX: Studiare la documentazione ufficiale per approfondire la gestione di thread, mutex, variabili condizione e semafori.
+Libri Consigliati: "Programming with POSIX Threads" di David R. Butenhof, "Advanced Programming in the UNIX Environment" di W. Richard Stevens.
+Consigli Pratici
+Debugging: Utilizzare strumenti di debugging come gdb per identificare e risolvere problemi nel codice.
+Version Control: Utilizzare sistemi di version control come git per gestire le varie versioni del codice e tracciare le modifiche.
+Collaborazione: Lavorare in gruppo per discutere soluzioni e approcci diversi ai problemi.
+Seguendo questa serie di esercizi incrementali, si dovrebbe essere in grado di sviluppare le competenze necessarie per affrontare con successo esami di laboratorio in Sistemi Operativi di livello simile a quelli forniti.
